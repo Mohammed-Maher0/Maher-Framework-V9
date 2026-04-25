@@ -255,7 +255,7 @@ if command -v arjun &>/dev/null && [ -s alive.txt ]; then
         SAFE=$(echo "$url" | md5sum | cut -c1-8)
         arjun -u "$url" \
             -oJ "mining/params/arjun/arjun_${SAFE}.json" \
-            --stable -t 5 -q \
+            --stable -t 2 -d 1 -q \
             2>/dev/null || true
     done
     echo "    > Arjun results in mining/params/arjun/"
