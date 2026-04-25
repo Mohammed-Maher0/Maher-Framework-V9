@@ -1,4 +1,4 @@
-# 🐉 Maher Framework V9 — Precision Dragon
+#  Maher Framework V9 — Precision Dragon
 
 > **Bug Bounty Automation Framework — Quality over Quantity**
 
